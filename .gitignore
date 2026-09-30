@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+
+# Generated Output / Temporary Images
+images/output_*
+output_*
+output/
+test_out*
+
+# Large Model weights (자동 다운로드되므로 제외)
+*.onnx
